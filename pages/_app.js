@@ -1,4 +1,4 @@
-//import '../src/styles/index.scss';
+import '../src/styles/index.scss';
 
 import { ApolloProvider } from "@apollo/client"
 import client from "../src/apollo/client";
