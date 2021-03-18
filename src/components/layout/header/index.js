@@ -1,7 +1,7 @@
 import  Nav from './nav'
 import { isEmpty } from 'lodash'
 
-export const Header = ( { headerMenus } ) => {
+export const Header = ( { header,  headerMenus } ) => {
     
     if ( isEmpty(headerMenus) ) {
         return null;
@@ -9,7 +9,7 @@ export const Header = ( { headerMenus } ) => {
     
     return (
         <header>
-            <Nav headerMenus={headerMenus} />
+            <Nav header={header} headerMenus={headerMenus} />
         </header>
     )
 }
