@@ -3,9 +3,8 @@ import Footer from './footer'
 
 export const Layout = ( {data, children} ) => {
 
-    console.log('data', data);
+    //console.log('data', data);
     
-
     return (
         <div>
             <Header header={data?.header} headerMenus={data?.menus?.headerMenus} />
